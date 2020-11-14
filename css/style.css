@@ -1,0 +1,126 @@
+/*header*/
+
+header .navbar-light {
+	background-color: #bfd2d0;
+}
+
+header .navbar-light a {
+   color: #007b96;
+}
+
+#navbarSupportedContent li {
+	margin-left: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+#navbarSupportedContent a::after {
+	/* height: 1px; */
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #ccc;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+
+#navbarSupportedContent a:hover::after {
+	transform: scale(1);
+}
+
+a.navbar-brand-con {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.container p {
+	color: #007b96;
+}
+
+.container li {
+	color: #007b96;
+}
+
+.container h3 {
+	color: #007b96;
+}
+.rasskaz_o_sebe {
+	margin-top: 30px;
+}
+
+.img_123 {
+	margin: 20px;
+	text-align: center;
+}
+
+.grid-posts h3 {
+	text-align: center;
+	margin-top: 22px;
+}
+
+.detali_snimki h3, .zakluchenie {
+	text-align: center;
+}
+
+.grid-posts p {
+	text-align: center;
+}
+
+.grid-posts h3 {
+	margin-top: 30px;
+}
+
+.grid-posts p {
+	margin-bottom: 30px;
+}
+
+.card-body p {
+	margin-top: 12px;
+	margin-right: -3px;
+}
+
+.grid-posts .card {
+	border: 0;
+	margin-left: -14px;
+}
+
+.grid-posts .card-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+.zakluchenie p {
+	margin-bottom: 40px;
+}
+
+.social-icon-box {
+	margin-top: 40px;
+}
+
+.zakluchenie p {
+	color: grey;
+}
+
+.row.centered .social-icon-box a {
+	color: grey;
+	margin-right: 8px;
+}
+
+/*Мобильная адаптация*/
+
+@media (max-width: 480px) {
+
+	.img_123 img {
+    	width: 280px;
+	}
+
+	.grid-posts .card {
+    	margin-left: 0;
+	}
+
+	.social-icon-box {
+    	margin-left: 66px;
+	}
+}
